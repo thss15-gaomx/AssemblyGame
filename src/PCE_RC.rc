@@ -1,0 +1,41 @@
+#include <resource.h>
+
+
+#define 	IDB_START			100
+#define		IDB_BACKGROUND		101
+#define		IDB_BLUE_BRICK		102
+#define 	IDB_GREEN_BRICK		103
+#define 	IDB_PURPLE_BRICK	104
+#define 	IDB_STONE_BRICK		105
+#define		IDB_YELLOW_BRICK	106
+#define		IDB_HERO			107
+#define     IDB_LABEL           108
+#define		IDB_ENERGY			109
+#define     IDB_LABEL_TWO       110
+#define     IDB_LABEL_THREE     111
+#define     IDB_LABEL_FOUR      112
+#define     IDB_LABEL_FIVE      113
+#define 	IDB_INSTRUCTION		114
+#define		IDB_GAMEOVER		115
+#define     IDB_GAMEWIN         116
+#define     ICO_MAIN            200
+
+
+IDB_START				BITMAP			"static/start.bmp"
+IDB_LABEL               BITMAP          "static/label.bmp"
+IDB_LABEL_TWO           BITMAP          "static/labeltwo.bmp"
+IDB_LABEL_THREE         BITMAP          "static/labelthree.bmp"
+IDB_LABEL_FOUR          BITMAP          "static/labelfour.bmp"
+IDB_LABEL_FIVE          BITMAP          "static/labelfive.bmp"
+IDB_BACKGROUND			BITMAP			"static/background.bmp"
+IDB_BLUE_BRICK			BITMAP			"static/brick_blue.bmp"
+IDB_GREEN_BRICK			BITMAP			"static/brick_green.bmp"
+IDB_PURPLE_BRICK		BITMAP			"static/brick_purple.bmp"
+IDB_STONE_BRICK			BITMAP			"static/brick_stone.bmp"
+IDB_YELLOW_BRICK		BITMAP			"static/brick_yellow.bmp"
+IDB_HERO 				BITMAP 			"static/hero.bmp"
+IDB_ENERGY				BITMAP			"static/energy.bmp"
+IDB_INSTRUCTION			BITMAP			"static/instruction.bmp"
+IDB_GAMEOVER			BITMAP			"static/gameover.bmp"
+IDB_GAMEWIN             BITMAP          "static/gamewin.bmp"
+ICO_MAIN                ICON            "static/uml.ico"
